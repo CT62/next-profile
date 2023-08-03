@@ -3,13 +3,15 @@ import { TypeAnimation } from 'react-type-animation';
 
 export function Typeanimation(){
     return (
-        <TypeAnimation
+        <div md:text-center>
+        <p>I am a</p>
+        <TypeAnimation font-extrabold text-transparent text-8xl bg-clip-text bg-gradient
           sequence={[
-            "I am a Programmer",
+            "Programmer",
             2000, 
-            "I am a Tech Enthusiast",
+            "Tech Enthusiast",
             2000,
-            "I am a Full Stack Developer",
+            "Full Stack Developer",
             2000
           ]}
           wrapper="span"
@@ -17,5 +19,6 @@ export function Typeanimation(){
           style={{ fontSize: '2em', display: 'inline-block' }}
           repeat={Infinity}
         />
+        </div>
       );
 }
