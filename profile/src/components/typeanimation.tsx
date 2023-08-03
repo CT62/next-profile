@@ -5,6 +5,8 @@ export function Typeanimation(){
     return (
         <TypeAnimation
           sequence={[
+            "I am CT",
+            4000,
             "I am a Programmer",
             2000, 
             "I am a Tech Enthusiast",
