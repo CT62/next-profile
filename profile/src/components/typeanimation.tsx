@@ -1,20 +1,15 @@
+"use client"
 import { TypeAnimation } from 'react-type-animation';
 
-interface Props{
-    FirstMessage: string;
-    SecondMessage: string;
-    ThirdMessage: string;
-}
-
-export function Typeanimation({FirstMessage, SecondMessage, ThirdMessage}:Props){
+export function Typeanimation(){
     return (
         <TypeAnimation
           sequence={[
-            {FirstMessage},
+            "I am a Programmer",
             2000, 
-            {SecondMessage},
+            "I am a Tech Enthusiast",
             2000,
-            {ThirdMessage},
+            "I am a Full Stack Developer",
             2000
           ]}
           wrapper="span"
