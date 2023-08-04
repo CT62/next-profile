@@ -3,6 +3,7 @@ import { TypeAnimation } from 'react-type-animation';
 
 export function Typeanimation(){
     return (
+      <>
         <div md:text-center>
         <p>I am a</p>
         <TypeAnimation font-extrabold text-transparent text-8xl bg-clip-text bg-gradient
@@ -20,5 +21,6 @@ export function Typeanimation(){
           repeat={Infinity}
         />
         </div>
+      </>
       );
 }
