@@ -4,10 +4,10 @@ import { TypeAnimation } from 'react-type-animation';
 export function Typeanimation(){
     return (
       <>
-        <div className="text-center mx-4 space-y-2">
-          <p>I am a</p>
+        <div className="text-white mx-4 space-y-2 ">
+          <p className="text-2xl">I am a</p>
 
-          <TypeAnimation className="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-green-400 to-blue-500"
+          <TypeAnimation className="text-9xl font-extrabold"
             sequence={[
               "Programmer",
               2000, 
