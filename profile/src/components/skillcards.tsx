@@ -7,7 +7,7 @@ export default function SkillCards() {
            before:bg-black before:inline-block before:relative before:align-middle 
            before:w-1/4 before:right-2 after:left-2 text-xl p-4 font-extrabold">My Tech Stack
         </h1>
-        <h1 className="pt-10 pb-2 text-center">Backend Languages & Tools</h1>
+        <h1 className="pt-10 pb-2 text-center font-extrabold">Backend</h1>
         <div className="container my-12 mx-auto px-4 md:px-12">
           <div className="flex flex-wrap -mx-1 lg:-mx-4">
             <Cards Name="Python" Img="https://www.vectorlogo.zone/logos/python/python-icon.svg"/>
@@ -18,22 +18,24 @@ export default function SkillCards() {
             <Cards Name="Django" Img="https://www.vectorlogo.zone/logos/djangoproject/djangoproject-icon.svg" />
             <Cards Name="Flask" Img="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" />
             <Cards Name="Jinja" Img="https://www.vectorlogo.zone/logos/pocoo_jinja/pocoo_jinja-icon.svg" />
+            <Cards Name="Socket.io" Img="https://www.vectorlogo.zone/logos/socketio/socketio-icon.svg"/>
           </div>
         </div>
   
   
   
-        <h1 className="pt-10 pb-2 text-center">Frontend</h1>
+        <h1 className="pt-10 pb-2 text-center font-extrabold">Frontend</h1>
         <div className="container my-12 mx-auto px-4 md:px-12">
           <div className="flex flex-wrap -mx-1 lg:-mx-4">
             <Cards Name="React" Img="https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg" />
             <Cards Name="Tailwindcss" Img="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" />
             <Cards Name="Bootstrap" Img="https://www.vectorlogo.zone/logos/getbootstrap/getbootstrap-icon.svg" />
+            <Cards Name="HTML" Img="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg" />
           </div>
         </div>
   
   
-        <h1 className="pt-10 pb-2 text-center">Version Control & Package Managers</h1>
+        <h1 className="pt-10 pb-2 text-center font-extrabold">Version Control & Package Managers</h1>
         <div className="container my-12 mx-auto px-4 md:px-12">
           <div className="flex flex-wrap -mx-1 lg:-mx-4">
             <Cards Name="Git" Img="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" />
