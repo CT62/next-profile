@@ -22,7 +22,6 @@ export default function Card({Name,Img,link}: Props){
     
             </div>
             
-            
     );
 
     } 
